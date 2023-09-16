@@ -28,5 +28,4 @@ keras 2.4.3
 
 Once you have that sorted, run ["train_mask_rcnn.ipynb"](https://github.com/akTwelve/cocosynth/blob/master/notebooks/train_mask_rcnn.ipynb)
 
-![Pinecones detection1](./cocosynth/results/1.jpg)
-![Pinecones detection2](./cocosynth/results/2.jpg)
+![Pinecones detection1](./cocosynth/results/1.jpg) ![Pinecones detection2](./cocosynth/results/2.jpg)
