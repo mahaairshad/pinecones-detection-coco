@@ -20,11 +20,11 @@ This repository doesn't contain the dataset due to memory issues. But it can be 
 Biggest challenge faced here was to get the right compatibilities for python, tensorflow, keras, cudatoolkit, cudnn working with 3060Ti GPU.
 
 My Combo that Worked - RTX 3060 Ti
-Python 3.8
-CUDA Toolkit 11.1.1
-CUDNN 8.0.5.39
-tensorflow 2.4
-keras 2.4.3
+- Python 3.8
+- CUDA Toolkit 11.1.1
+- CUDNN 8.0.5.39
+- tensorflow 2.4
+- keras 2.4.3
 
 Once you have that sorted, run ["train_mask_rcnn.ipynb"](https://github.com/akTwelve/cocosynth/blob/master/notebooks/train_mask_rcnn.ipynb)
 
