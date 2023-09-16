@@ -8,7 +8,7 @@ For MaskRCNN [MaskRCNN-leekunhee](https://github.com/leekunhee/Mask_RCNN/tree/ma
 
 The work is divided into two parts:
 
-##1. COCO dataset creation:
+## 1. COCO dataset creation:
 Check out the [Getting Started with Cocosynth: Create synthetic data](https://github.com/akTwelve/cocosynth/blob/master/docs/getting-started.md).
 This repository doesn't contain the dataset due to memory issues. But it can be regenerated following the steps mentioned.
 - I took several images of pinecones and removed their backgrounds using CVAT. Each pinecone image is in .png format with transparent background.
@@ -16,7 +16,7 @@ This repository doesn't contain the dataset due to memory issues. But it can be 
 - "image_composition.py" creates images of pinecones overlayed on top of 512x512 size cropped background images, randomly, along with their masks.
 - "coco_json_utils.py" then converts these to COCO instances in .json.
 
-##2. Training MaskRCNN:
+## 2. Training MaskRCNN:
 Biggest challenge faced here was to get the right compatibilities for python, tensorflow, keras, cudatoolkit, cudnn working with 3060Ti GPU.
 
 My Combo that Worked - RTX 3060 Ti
